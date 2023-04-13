@@ -15,7 +15,6 @@ export const TaskCard = ({ task }) => {
       <div>
         <div className="flex justify-between">
           <h1 className="font-bold">{task.title}</h1>
-          <h2 className="font-bold">lorem ipsum</h2>
           <button
             className="bg-red-700 hover:bg-red-600 px-3 py-1 inline-flex items-center"
             onClick={(e) => {
