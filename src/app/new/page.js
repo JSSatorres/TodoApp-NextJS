@@ -50,6 +50,14 @@ const TaskFormPage = ({ params }) => {
           name="title"
           {...register("title", { required: true })}
         />
+                <input
+          type="text"
+          className="bg-gray-800 focus:text-gray-100 focus:outline-none w-full py-3 px-4 mb-2 block"
+          placeholder="Write a title"
+          autoFocus
+          name="title"
+          {...register("title", { required: true })}
+        />
         {errors.title && (
           <span className="block text-red-400 mb-2">
             This field is required
